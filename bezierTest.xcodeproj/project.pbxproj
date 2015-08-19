@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF54CF321B82131A00CF8BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54CF311B82131A00CF8BF8 /* AppDelegate.swift */; };
+		FF54CF341B82131A00CF8BF8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FF54CF331B82131A00CF8BF8 /* GameScene.sks */; };
+		FF54CF361B82131A00CF8BF8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54CF351B82131A00CF8BF8 /* GameScene.swift */; };
+		FF54CF381B82131A00CF8BF8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54CF371B82131A00CF8BF8 /* GameViewController.swift */; };
+		FF54CF3B1B82131A00CF8BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF54CF391B82131A00CF8BF8 /* Main.storyboard */; };
+		FF54CF401B82131A00CF8BF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF54CF3E1B82131A00CF8BF8 /* LaunchScreen.xib */; };
+		FF54CF4C1B82131A00CF8BF8 /* bezierTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF54CF4B1B82131A00CF8BF8 /* bezierTestTests.swift */; };
+		FF6B91E01B835E4300D5AEC5 /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6B91DF1B835E4300D5AEC5 /* PocketSVG.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF54CF461B82131A00CF8BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF54CF241B82131900CF8BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF54CF2B1B82131A00CF8BF8;
+			remoteInfo = bezierTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF54CF2C1B82131A00CF8BF8 /* bezierTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bezierTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF54CF301B82131A00CF8BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF54CF311B82131A00CF8BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF54CF331B82131A00CF8BF8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FF54CF351B82131A00CF8BF8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FF54CF371B82131A00CF8BF8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FF54CF3A1B82131A00CF8BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF54CF3F1B82131A00CF8BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF54CF451B82131A00CF8BF8 /* bezierTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bezierTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF54CF4A1B82131A00CF8BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF54CF4B1B82131A00CF8BF8 /* bezierTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bezierTestTests.swift; sourceTree = "<group>"; };
+		FF6B91DD1B835E4200D5AEC5 /* bezierTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bezierTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF6B91DE1B835E4300D5AEC5 /* PocketSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PocketSVG.h; path = "../Desktop/PocketSVG-master/PocketSVG.h"; sourceTree = "<group>"; };
+		FF6B91DF1B835E4300D5AEC5 /* PocketSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PocketSVG.m; path = "../Desktop/PocketSVG-master/PocketSVG.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF54CF291B82131A00CF8BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF54CF421B82131A00CF8BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF54CF231B82131900CF8BF8 = {
+			isa = PBXGroup;
+			children = (
+				FF54CF2E1B82131A00CF8BF8 /* bezierTest */,
+				FF54CF481B82131A00CF8BF8 /* bezierTestTests */,
+				FF54CF2D1B82131A00CF8BF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF54CF2D1B82131A00CF8BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF54CF2C1B82131A00CF8BF8 /* bezierTest.app */,
+				FF54CF451B82131A00CF8BF8 /* bezierTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF54CF2E1B82131A00CF8BF8 /* bezierTest */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B91E21B835E6C00D5AEC5 /* SVG */,
+				FF54CF311B82131A00CF8BF8 /* AppDelegate.swift */,
+				FF54CF331B82131A00CF8BF8 /* GameScene.sks */,
+				FF54CF351B82131A00CF8BF8 /* GameScene.swift */,
+				FF54CF371B82131A00CF8BF8 /* GameViewController.swift */,
+				FF54CF391B82131A00CF8BF8 /* Main.storyboard */,
+				FF54CF3E1B82131A00CF8BF8 /* LaunchScreen.xib */,
+				FF54CF2F1B82131A00CF8BF8 /* Supporting Files */,
+			);
+			path = bezierTest;
+			sourceTree = "<group>";
+		};
+		FF54CF2F1B82131A00CF8BF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF54CF301B82131A00CF8BF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF54CF481B82131A00CF8BF8 /* bezierTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF54CF4B1B82131A00CF8BF8 /* bezierTestTests.swift */,
+				FF54CF491B82131A00CF8BF8 /* Supporting Files */,
+			);
+			path = bezierTestTests;
+			sourceTree = "<group>";
+		};
+		FF54CF491B82131A00CF8BF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF54CF4A1B82131A00CF8BF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF6B91E21B835E6C00D5AEC5 /* SVG */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B91DE1B835E4300D5AEC5 /* PocketSVG.h */,
+				FF6B91DF1B835E4300D5AEC5 /* PocketSVG.m */,
+				FF6B91DD1B835E4200D5AEC5 /* bezierTest-Bridging-Header.h */,
+			);
+			name = SVG;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF54CF2B1B82131A00CF8BF8 /* bezierTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF54CF4F1B82131A00CF8BF8 /* Build configuration list for PBXNativeTarget "bezierTest" */;
+			buildPhases = (
+				FF54CF281B82131A00CF8BF8 /* Sources */,
+				FF54CF291B82131A00CF8BF8 /* Frameworks */,
+				FF54CF2A1B82131A00CF8BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bezierTest;
+			productName = bezierTest;
+			productReference = FF54CF2C1B82131A00CF8BF8 /* bezierTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF54CF441B82131A00CF8BF8 /* bezierTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF54CF521B82131A00CF8BF8 /* Build configuration list for PBXNativeTarget "bezierTestTests" */;
+			buildPhases = (
+				FF54CF411B82131A00CF8BF8 /* Sources */,
+				FF54CF421B82131A00CF8BF8 /* Frameworks */,
+				FF54CF431B82131A00CF8BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF54CF471B82131A00CF8BF8 /* PBXTargetDependency */,
+			);
+			name = bezierTestTests;
+			productName = bezierTestTests;
+			productReference = FF54CF451B82131A00CF8BF8 /* bezierTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF54CF241B82131900CF8BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Eduardo Pereira";
+				TargetAttributes = {
+					FF54CF2B1B82131A00CF8BF8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FF54CF441B82131A00CF8BF8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FF54CF2B1B82131A00CF8BF8;
+					};
+				};
+			};
+			buildConfigurationList = FF54CF271B82131900CF8BF8 /* Build configuration list for PBXProject "bezierTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF54CF231B82131900CF8BF8;
+			productRefGroup = FF54CF2D1B82131A00CF8BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF54CF2B1B82131A00CF8BF8 /* bezierTest */,
+				FF54CF441B82131A00CF8BF8 /* bezierTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF54CF2A1B82131A00CF8BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF54CF401B82131A00CF8BF8 /* LaunchScreen.xib in Resources */,
+				FF54CF341B82131A00CF8BF8 /* GameScene.sks in Resources */,
+				FF54CF3B1B82131A00CF8BF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF54CF431B82131A00CF8BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF54CF281B82131A00CF8BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6B91E01B835E4300D5AEC5 /* PocketSVG.m in Sources */,
+				FF54CF361B82131A00CF8BF8 /* GameScene.swift in Sources */,
+				FF54CF381B82131A00CF8BF8 /* GameViewController.swift in Sources */,
+				FF54CF321B82131A00CF8BF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF54CF411B82131A00CF8BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF54CF4C1B82131A00CF8BF8 /* bezierTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF54CF471B82131A00CF8BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF54CF2B1B82131A00CF8BF8 /* bezierTest */;
+			targetProxy = FF54CF461B82131A00CF8BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF54CF391B82131A00CF8BF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF54CF3A1B82131A00CF8BF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF54CF3E1B82131A00CF8BF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF54CF3F1B82131A00CF8BF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF54CF4D1B82131A00CF8BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FF54CF4E1B82131A00CF8BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF54CF501B82131A00CF8BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = bezierTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bezierTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF54CF511B82131A00CF8BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = bezierTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bezierTest-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		FF54CF531B82131A00CF8BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = bezierTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bezierTest.app/bezierTest";
+			};
+			name = Debug;
+		};
+		FF54CF541B82131A00CF8BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = bezierTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bezierTest.app/bezierTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF54CF271B82131900CF8BF8 /* Build configuration list for PBXProject "bezierTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF54CF4D1B82131A00CF8BF8 /* Debug */,
+				FF54CF4E1B82131A00CF8BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF54CF4F1B82131A00CF8BF8 /* Build configuration list for PBXNativeTarget "bezierTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF54CF501B82131A00CF8BF8 /* Debug */,
+				FF54CF511B82131A00CF8BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF54CF521B82131A00CF8BF8 /* Build configuration list for PBXNativeTarget "bezierTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF54CF531B82131A00CF8BF8 /* Debug */,
+				FF54CF541B82131A00CF8BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF54CF241B82131900CF8BF8 /* Project object */;
+}
